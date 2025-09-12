@@ -145,7 +145,13 @@ flowchart TD
 
 ## 🎬 Demo Video & Presentation Slides
 
-[![Demo Video](https://img.youtube.com/vi/cigAVGhOl-0/0.jpg)](https://youtu.be/cigAVGhOl-0?t=180)
+
+<p align="center">
+  <a href="https://youtu.be/cigAVGhOl-0?t=180">
+    <img src="https://img.youtube.com/vi/cigAVGhOl-0/0.jpg" alt="Demo Video" />
+  </a>
+</p>
+
 
 
 [View PDF Presentation](https://drive.google.com/file/d/1ud8WKoPKXwB3ZCWgTf8R2BDHT2CIhQzu/view?usp=sharing)
