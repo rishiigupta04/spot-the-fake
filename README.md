@@ -270,17 +270,19 @@ flask-cors
    - Combined final verdict
 
 ### Modules & Responsibilities
-```
+
 app2.py — Extracts URL features (length, special chars, TLD), runs LightGBM (phishing_lgbm.pkl), returns calibrated probabilities and SHAP explanations.
 
 app1.py — Captures page screenshots (Selenium), computes pHash/dHash and color/text similarity, OCR with Tesseract, fuzzy brand matching using RapidFuzz.
 
-everything.py — Streamlit front end that runs modules in parallel, normalizes scores, performs weighted ensemble, and displays SHAP/visual explainability.
+everything.py — (optional) Streamlit front end that runs modules in parallel, normalizes scores, performs weighted ensemble, and displays SHAP/visual explainability for quick test checks.
+
+frontend - Sleek Interactive React UI and Final Verdict Dashboard
 
 backend/models/loader.py — Centralized model loading utilities used by the backend service.
 
 modules/scam-detector.py — Utility functions used across modules (feature extraction, text cleaning, hashing helpers).
-```
+
 
 ## 🔬 Technical Deep Dive
 
