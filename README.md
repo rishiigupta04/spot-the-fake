@@ -147,7 +147,7 @@ flowchart TD
 
 
 <p align="center">
-  <a href="https://youtu.be/fPXwLn6FBj4">
+  <a href="https://youtu.be/fPXwLn6FBj4?t=180">
     <img src="https://img.youtube.com/vi/cigAVGhOl-0/0.jpg" alt="Demo Video" />
   </a>
 </p>
